@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link href="/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+</head>
+
+<body>
+    <header id="header">
+        <img id="header-img" src="./Images/product-landing-page-logo.png" />
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </nav>
+    </header>
+    <div class="form-container">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" name="email" type="email" placeholder="Enter your email address" required />
+            <br />
+            <input type="submit" id="submit" value="Get Started" />
+        </form>
+    </div>
+    <section id="features">
+        <div id="section-1">
+            <i class="fa-twitter"></i>
+            <div class="section-text">
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+        </div>
+        <div id="section-1">
+            <i class="fa-truck-moving"></i>
+            <div class="section-text">
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+        </div>
+        <div id="section-1">
+            <i class="fa-battery-full"></i>
+            <div class="section-text">
+                <h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+        </div>
+    </section>
+    <section id="how-it-works">
+        <iframe id="video" width="640" height="294" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0"
+            allowfullscreen></iframe>
+    </section>
+    <section id="pricing">
+        <div class="card-container">
+            <div class="card">
+                <h3>- TENOR TROMBONE -</h3>
+                <span class="bar"></span>
+                <p class="btc">$ 600</p>
+                <p>- 3 Days -</p>
+                <p>- 3 Pages -</p>
+                <p>- Featured -</p>
+                <p>- Responsive Design -</p>
+                <link class="btn">
+                    SELECT
+                </link>
+            </div>
+            <div class="card">
+                <h3>- BASS TROMBONE -</h3>
+                <span class="bar"></span>
+                <p class="btc">$ 900</p>
+                <p>- 2 Days -</p>
+                <p>- 5 Pages -</p>
+                <p>- Featured -</p>
+                <p>- Responsive Design -</p>
+                <Link to="/contact" class="btn">
+                    SELECT
+                </Link>
+            </div>
+            <div class="card">
+                <h3>- VALVE TROMBONE -</h3>
+                <span class="bar"></span>
+                <p class="btc">$ 1200</p>
+                <p>- 5 Days -</p>
+                <p>- 8 Pages -</p>
+                <p>- Featured -</p>
+                <p>- Responsive Design -</p>
+                <Link to="/contact" class="btn">
+                    SELECT
+                </Link>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
